@@ -2,7 +2,7 @@ import os
 import glob
 import pandas as pd
    
-os.chdir("C:/Users/SOPORTE XOTEPINGO/Desktop/Historial/ElementosBaseTandeo")
+os.chdir("E:/python/Historial/ElementosBaseTandeo")
 extension = 'csv'
 todos_los_archivos = [i for i in glob.glob('*.{}'.format(extension))]
 #combina todos los archivos de la lista
